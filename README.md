@@ -1,4 +1,4 @@
-<p align="center"><a href="https://html.spec.whatwg.org/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="200"></a></p>
+<p align="center"><a href="https://html.spec.whatwg.org/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="150"></a></p>
 
 ### About HTML
 
