@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Links</h1>
+
+    <h2>Tag âncora &lt;a&gt;</h2>
+
+    <a href="https://www.google.com.br/">Google</a> <!-- tag a com href é usado para por um link --><br>
+
+    <a href="link" download="">Link de download</a> <!-- tag a com href e download é usado para baixar o conteudo do link --><br>
+     <!-- as aspas após download são pra como vai baixar as informações -->
+
+    <a href="https://www.google.com.br/" target="_blank">Google</a> <!-- target="_blank" faz com o que o link seja aberto em uma nova aba. O padrão automático é target="_self"-->
+
+    <h2>Utilizando a tag âncora</h2>
+
+    <p>Encontre-me:</p>
+    <nav> <!-- indica a abertura de uma seção com links de navegação entre outras páginas ou áreas da página -->
+        <ul>
+            <li><a href="https://www.google.com.br/" target="_blank">Google</a></li>  <!-- abrindo link em outra aba-->
+            <li><a href="https://www.apple.com/br/">Apple</a></li>
+            <li><a href="https://www.microsoft.com/pt-br">Microsoft</a></li>
+        </ul>
+    </nav>
+
+    <h2>Tag âncora para fragmento</h2>
+
+    <a href="#about">TEXTO</a> <!-- sem link e com #, direciona até a parte desejada da página desde que o mesmo esteja identificado com uma id-->
+
+    <h3 id="about">Sobre</h3> <!-- identificação do subtitulo para que o direcionamento acima funcione-->
+
+    <h2>Conteúdo nos hyperlinks</h2>
+
+    <p>Clicar em qq coisa abaixo levará ao Google</p>
+
+    <a href="https://www.google.com.br" title="Ir pro Google"> <!-- title faz com que o título seja exibido ao descançar o mouse  -->
+        <h3>Google</h3>
+        <p>Claro que posso</p>
+        <img src="https://c4.wallpaperflare.com/wallpaper/984/953/180/photo-of-islands-during-sunset-wallpaper-preview.jpg" width="48" height="48" alt=""> 
+            <!-- img src introduz uma imagem na página, alt é uma imagem alternativa caso disponível -->
+             <!-- width e hight remedicionam a imagem -->
+    </a>
+        <!-- tudo dentro <a href> </a> levara ao link pelo clique -->
+
+    <h2>Caminhos e URLs</h2>
+
+    <a href="elements.html" target="_blank">Abri página sobre elemetos HTML</a> 
+    <!-- pode-se também informar o endereço de uma outra página HTML ou arquivo-->
+    <!-- se não estiver no mesmo progeto, adicione .. (dois pontos e navegue) -->
+
+    <h2>Caminhos absolutos e relativos</h2>
+
+    <p>Muito fácil:</p>
+    <h3>Caminhos absolutos são aqueles que incluem protocolos e URLs</h3>
+    <h3>Caminhos relativos são os que estãi relativos a pasta do projeto</h3>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tabelas no HTML</h1>
+
+    <h2>Tabela simples</h2>
+
+    <table> <!-- elemento que abre uma tabela -->
+
+        <caption>Somatório de Idades</caption> <!-- título da tabela -->
+
+        <thead> <!-- parte referente ao cabeçalho das colunas -->
+            <tr> <!-- criar uma linha de células tabela -->
+                <th>Nome</th><!-- se refere ao header (título) da tabela -->
+                <th>Idade</th>
+            </tr>
+        </thead>
+
+        <tbody> <!-- parte referente ao corpo da tabela -->
+            <tr>
+                <td>Gustavo</td> <!-- se refere a descrição do elemento -->
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Diego</td>
+                <td>21</td>
+            </tr>
+        </tbody>
+
+        <tfoot> <!-- parte referente ao rodapé da tabela-->
+            <tr>
+                <td>Total:</td>
+                <td>41 anos</td>
+            </tr>
+
+        </tfoot>
+
+    </table>
+
+    <h2>Tabela complexa</h2>
+
+    <table>
+
+        <caption>Produtos Vendidos por loja</caption>
+
+        <colgroup> <!--agrupa colunas para padronizações e estilização-->
+            <col>
+            <col span="2" style="background-color: rgb(98, 218, 134);">
+            <col span="2" style="background-color: rgb(243, 241, 117);">
+        </colgroup>
+
+        <thead>
+            <tr>
+                <th rowspan="2"></th> <!--rowspan indica quantas linhas deve ocupar-->
+                <th colspan="2" scope="colgroup">Loja I</th> <!--colspan indica quantas colunas ocupar-->
+                <th colspan="2" scope="colgroup">Loja II</th>
+            </tr>
+
+            <tr>
+                <th scope="col">Produzidos</th>
+                <th scope="col">Vendidos</th>
+                <th scope="col">Produzidos</th>
+                <th scope="col">Vendidos</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th scope="row">Vassouras</th>
+                <td>50</td>
+                <td>30</td>
+                <td>20</td>
+                <td>20</td>
+            </tr>
+
+            <tr>
+                <th>Baldes</th>
+                <td>10</td>
+                <td>10</td>
+                <td>30</td>
+                <td>25</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
